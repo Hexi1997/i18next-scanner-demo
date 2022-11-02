@@ -2,5 +2,5 @@
   "title": "common_title_en",
   "color": "red_en",
   "test": "test_en",
-  "say": "说 {{msg}}"
+  "say": "say {{msg}}"
 }
