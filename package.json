@@ -47,7 +47,6 @@
     ]
   },
   "devDependencies": {
-    "chalk": "^5.1.2",
     "i18next-scanner": "^4.1.0"
   }
 }
