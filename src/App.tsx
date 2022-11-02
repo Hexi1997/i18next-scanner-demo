@@ -7,7 +7,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div>{t('homepage')}</div>
+        <div>{t('title',{ns:'pages'})}</div>
+        <div>{t('title',{ns:'common'})}</div>
         <button onClick={()=>{
           switchLanguage(i18next.language === 'zh'?"en-US":"zh")
         }}>toggle language</button>

@@ -1,11 +1,10 @@
-import en from './en';
-import zh from './zh';
+const ns = ['common','pages']
 
-export const resources = {
-  'en-US': {
-    translation: en
-  },
-  zh: {
-    translation: zh
-  }
-};
+const resources:any = {"en-US":{},"zh":{}};
+
+ns.forEach(item=>{
+  resources["en-US"][item] = require(`./en/${item}.json`);
+  resources["zh"][item] = require(`./zh/${item}.json`)
+})
+
+export default resources;

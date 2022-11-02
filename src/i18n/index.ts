@@ -9,7 +9,7 @@ import {
 } from 'react-i18next';
 import { useMount, useUpdate } from 'react-use';
 
-import { resources } from './locales/index';
+import resources from './locales';
 
 void i18next
   .use(initReactI18next)
